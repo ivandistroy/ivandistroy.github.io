@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  margin: 0%;
+}
+.cabecera {
+  color: blue;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0%;
+  height: 300px;
+}
+.cuerpo {
+  display: flex;
+  justify-content: center;
+}
+.pie-de-pagina {
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  background-color: seagreen;
+}
+
+.cabecera-botones {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  justify-content: space-between;
+}
